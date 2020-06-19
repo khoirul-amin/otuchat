@@ -1,0 +1,42 @@
+.img-dashboard{
+    width: 130px;
+    margin-right: 20px;
+}
+.menu-beranda{
+    background: #4BB04E 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: 1px solid #4BB04E;
+    color: #ffffff;
+    margin-top: -40px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dummy{
+    width: 130px;
+    margin-right: 20px;
+}
+.sub-menu-beranda{
+    border-radius: 10px;
+    padding :10px 0px;
+    font-size: 11pt;
+    margin: -1px;
+    cursor: pointer;
+}
+.sub-menu-aktiv{
+    background: #80C984;
+}
+
+@media (max-width: 576px) {
+    .menu-beranda{
+        margin-top: 10px;
+    }
+    .sub-menu-beranda{
+        border-radius: 10px;
+        padding :6px 20px;
+    }
+    .img-dashboard{
+        width: 120px;
+        margin-right: 10px;
+    }
+}

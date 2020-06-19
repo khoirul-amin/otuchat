@@ -1,0 +1,101 @@
+.menu-riwayat{
+    border: 1px solid #FFFFFF;
+    background-color:#FFFFFF;
+    font-size : 12px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.menu-riwayat:hover{
+    border: 1px solid #2E7D32;
+    font-size : 12px;
+    color: #2E7D32;
+}
+.menu-riwayat-aktif{
+    border: 1px solid #2E7D32;
+    font-size : 12px;
+    color: #2E7D32;
+}
+
+.button-pilih{
+    font-size:12pt;
+    width:300px;
+    background-color:#FFFFFF;
+    color:#4FAE50;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.riwayat-list>p{
+    width: 300px;
+    font-size: 12pt;
+    padding: 10px 5px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    color: #005005;
+}
+.riwayat-list>p:hover{
+    background-color: #80C984;
+}
+.buttonRiwayat{
+    background: #4FAE50;
+    color: #FFFFFF;
+    padding: 7px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.buttonRiwayat:active{
+    background: #3A9460;
+}
+.margin-search{
+    padding-left: 100px;
+}
+.dataTables_length{
+    width: 50%;
+    float: left;
+}
+.dataTables_filter{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 3px;
+}
+.dataTables_info{
+    width: 50%;
+    float: left;
+}
+.dataTables_paginate{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 3px;
+}
+.dataTables_filter>label>input{
+    border: 1px solid #DFDFDF;
+    margin-left: 5px;
+    outline: none;
+    padding: 3px 10px;
+}
+.paginate_button{
+    cursor: pointer;
+}
+.paginate_button{
+    padding: 5px 10px;
+}
+.paginate_button:hover{
+    background: #DFDFDF;
+}
+.paginate_button:active{
+    outline: none;
+}
+.current{
+    background: #DFDFDF;
+}
+@media (max-width: 576px) { 
+    .scroll-riwayat{
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .margin-search{
+        padding-left: 0px;
+    }
+   }

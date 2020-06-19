@@ -1,0 +1,46 @@
+.cart-informasi{
+    height: 300px ;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.menuProfil{
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.line-footer{
+    width: 44%;
+}
+
+@media only screen and (max-width: 768px) {
+.responsiveAll{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cart-informasi{
+    height: 190px ;
+    padding-top: 0px;
+    padding-left: 15px;
+}
+.cart2{
+    margin-top: 10px;
+}
+.imagePhone{
+    padding-left: 10px;
+}
+.menuProfil{
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.buttonRiwayat{
+    margin-top: 5px;
+}
+.menu-product{
+    margin-left: 25px;
+}
+.detile-product{
+    margin-left: 0px;
+}
+.line-footer{
+    width: 82%;
+}
+}

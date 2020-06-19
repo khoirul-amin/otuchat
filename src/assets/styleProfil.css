@@ -1,0 +1,87 @@
+.title-profil{
+    color: #4BB04E;
+    font-size: 20pt;
+    margin-bottom: 0px;
+}
+.btn-pengaturan-akun{
+    color: #ffffff;
+    border-radius: 20px;
+    background: #4CB050 0% 0% no-repeat padding-box;
+    padding: 7px 40px;
+    cursor: pointer;
+    font-size: 11pt;
+    margin-right: 10px;
+}
+.body-profil{
+    padding-left: 30px;
+}
+.btn-new-otp{
+    border-radius: 20px;
+    border: 2px solid #2E7D32;
+    color: #2E7D32;
+    padding: 4px 20px;
+    font-size: 10pt;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.btn-new-otp:hover{
+    color: #ffffff;
+    background: #2E7D32;
+}
+.col-left{
+    float: left;
+    width: 50%;
+}
+.col-right{
+    float: right;
+    width: 50%;
+}
+.card-profil{
+    border-radius: 10px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    width: 499px;
+    height:193px;
+    margin-top: 35%;
+}
+.kartu{
+    width: 227px;
+    height: 129px;
+    margin-left: 20px;
+}
+.ket{
+    margin-left: 20px;
+    color: #4BB04E;
+}
+.isi-kartu{
+    color: #ffffff;
+    margin-top: 60px;
+    margin-left: 85px;
+    font-size: 10pt;
+}
+@media only screen and (max-width: 768px) {
+    .body-profil{
+        padding-left: 10px;
+    }
+    .btn-pengaturan-akun{
+       margin-top: 5px;
+       margin-bottom: 5px;
+       width: 200px;
+    }
+    .col-left{
+        width: 100%;
+    }
+    .col-right{
+        width: 100%;
+    }
+    .kartu{
+        margin: auto;
+    }
+    .card-profil{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .ket{
+        padding-left: 30px;
+        margin-left: 0px;
+    }
+}
